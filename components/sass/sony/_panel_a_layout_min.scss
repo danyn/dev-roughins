@@ -1,0 +1,78 @@
+
+$basic_margin:2%;
+
+body.media-set{
+//	padding:$basic_margin;
+}
+.media-set-60-40.set-a{
+	@media screen and (max-width:449px){
+		
+		.media-tile{
+	
+		@include height(100, $basic_margin *2);
+
+		margin:$basic_margin;
+	}
+			.birch-twitter{
+		@include height(33);
+	}
+	  
+		
+	}
+
+	.media-tile{
+		overflow:hidden;
+
+	}
+	
+
+	.frame-60{
+	
+		
+			#media-item-1{
+				
+	
+				img{
+			
+				}
+			}//#media-item-1
+			#media-item-2{
+			
+		
+					img{
+			
+				}
+			
+
+			}//#media-item-2
+				#media-item-3{
+			
+						img{
+				
+				}
+
+			}//#media-item-3
+		
+	}//.frame-60
+	
+	.frame-40{
+	
+			#media-item-4{
+			
+				
+			}//#media-item-4
+			#media-item-5{
+				img{
+					
+				}
+
+			}//#media-item-5 
+			#media-item-6{
+				img{
+			
+				}
+				}//#media-item-6
+		
+}//.frame-40  
+}//.media-set  
+ 

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Sony-Panel A</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+	
+	
+	<style>
+		/*debugging styles*/
+		
+		body {
+			background-color: #3b3b3b
+		}
+		
+		.media-tile {
+			background-color: white;
+			border-radius: 4px;
+		}
+		
+		.overlay-active{
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+			background-color: black;
+			position:absolute;
+		}
+		.media-tile{
+			position:relative;
+		}
+		
+/*		responsive video css*/
+		
+		.videoWrapper {
+	position: relative;
+/*			h/w aspect width:height*/
+/*			so since the padding here defines the height then is h/w */
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+		.vw-small{
+			    padding-bottom: 43.25%;
+		}
+		
+		
+	</style>
+	
+	
+	
+	
+	
+</head>
+
+<body clss="media-set">
+	
+	<section class="media-set-60-40 set-a" data-media-set="set_a">
+		<div class="frame-60">
+			<div id="media-item-1" class="media-tile birch-youtube red" data-tile-type="youtube">
+<!--			 <img src="img/fox-in-tall-grass.jpg" alt="Watch the red fox in action on wild video" title "click to watch the red fox video">-->
+				<span class="play"></span>
+<!--
+				<div class="overlay"></div>
+				<div class="videoWrapper">
+    			 Copy & Pasted from YouTube 
+    	<iframe width="640" height="360"
+    		
+    	 src="https://www.youtube.com/embed/9jCf62bRi6Y?rel=0" 
+    	 	
+    	 frameborder="0" allowfullscreen>
+    	 	
+    	 </iframe>
+				</div>
+-->
+			</div><!-- #media-item-1 -->
+			<div id="media-item-2" class="media-tile birch-youtube purple" data-tile-type="youtube">
+<!--			 <img src="img/eastern-brown-owl.jpg" alt="links to a video of the eastern brown owl" title="click to watch video of eastern brown owl">-->
+				<div class="overlay"></div>
+					<div class="videoWrapper vw-small">
+    			<!-- Copy & Pasted from YouTube -->
+<!--    			<iframe width="408" height="201"  src="https://www.youtube.com/embed/9jCf62bRi6Y" frameborder="0" allowfullscreen></iframe>-->
+				    	<iframe width="640" height="360"
+    		
+    	 src="https://www.youtube.com/embed/9jCf62bRi6Y?rel=0" 
+    	 	
+    	 frameborder="0" allowfullscreen>
+    	 	
+    	 </iframe>
+				
+				</div>
+			</div><!--		#media-item-2-->
+			<div id="media-item-3" class="media-tile birch-link green" data-tile-type="instagram">
+			 <img src="img/face-of-snapping-turtle.jpg" alt="watch our video of a snapping turtle" title="click to watch a video of a snapping turtle">
+				<div class="overlay"></div>
+			</div><!--		media-item-3-->
+		</div><!--		.frame-60-->
+		<div class="frame-40">
+			<div id="media-item-4" class="media-tile birch-twitter green" data-tile-type="twitter">
+				<div class="overlay"></div>
+			</div><!--		media-item-4-->
+			<div id="media-item-5" class="media-tile birch-link-share green" data-tile-type="link"> 
+			<img src="img/monkey-on-tall-rock.jpg" alt="tree monkey on tall rock in asia" title="click watch a video of a tree monkey who live in asia">
+				<div class="overlay"></div>
+			</div><!--		#media-item-5-->
+			<div id="media-item-6" class="media-tile birch-link-share purple" data-tile-type="link"> 
+			<img src="img/zebra.jpg" alt="zebra at the african sanctuary for peaceful admiration of spirit">
+				<div class="overlay"></div>
+			</div><!--			media-item-6-->
+		</div>
+	</section>
+
+</body>
+
+
+<!-- "https://www.youtube.com/embed/<?php echo $video_id?>?autoplay=1&showinfo=0?modestbranding=1rel=0"-->
+	<!--
+pass back a js object with all the youtube iframe markup inside them with id's 
+as keys then insert them into the dom only when a user clicks on the play button
+see if this will work... you can leave them in the dom once they are clicked,
+and just hide them once they are closed.  
+
+
+
+-->
+	<!--https://www.abeautifulsite.net/passing-data-from-php-to-javascript-->
+	<!--
+when the page first loads there will only be .video wrapper
+once the play button is clicked an event is fired and 
+http://api.jquery.com/replacewith/
+the dom element with the string from the js object which contains the respective iframe
+-->
+	<!--
+
+when a user decides that a tile is to be a you tube tile the js object string gets constructed with
+relevant id and the relevent event to attach to the button is written into the js and loaded
+into the document with a hook that is part of the init of the function
+-->
+	<!--
+each .set-xyz is a partial file to be included when a user includes it in a layout.
+its media tiles should be able to contain any content so the cmb2 fields would
+determine the class and copy etc.  there will be many fields and these will generate more markup 
+based on their values through if statements and such.
+
+ie if ($tile_type == "youtube"){}
+
+
+-->

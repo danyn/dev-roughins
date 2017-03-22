@@ -1,0 +1,103 @@
+//extends
+
+.center_absolute{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.social-headline{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+//last element in gutter after right
+//uses important so class can be defined once on a page 
+//for all nested elements with that class
+//by setting a high specficity
+.last_ {
+	  float: right !important;
+    margin-right: 0 !important;
+}
+
+//mixins
+
+@mixin back_img($path){
+	background-image:url($path);
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+
+//provide a percent to relate height to the width of parent elem
+//for relational heights pass in span(n)
+@mixin height($pad,$offset:0%){
+	height:0;
+	padding-bottom: $pad - $offset;
+}
+//width is given explicitly to calculate height 
+//corresponding to current sussy grid context 
+//by passing in span(n) for the width
+@mixin height_aspect($width,$aspect){
+	width:$width;
+	height:0;
+	padding-bottom:$width * $aspect;
+}
+//pass in the number of spans desired for the sqaure shape to occupy within
+//the current sussy context
+@mixin square_img($num_spans,$url,$rad:3px) {
+	
+		@include span($num_spans);
+		@include back_img($url);
+		@include height(span($num_spans));
+		border-radius: $rad;
+		position:relative;
+}
+ 
+//creates a rectangular shape with defaults to full width in a 12 column context
+@mixin social_box($height:0.777,$color:white,$background_color:#00aced, $num_spans:12){
+  @include span($num_spans);
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+	border-top-right-radius:12px;
+	border-bottom-right-radius:3px;
+	padding-top:span($height);
+	padding-bottom: span($height);
+	background-color:$background_color;
+	color:$color;
+	position: relative;
+}
+
+//pass in span(n) to relate to susy grid or any px or % value
+//currently used to create sqaure icon in a square container
+@mixin center_icon($url, $size:span(10)){
+	@extend .center_absolute;
+	@include back_img($url);
+	display: block !important;
+	width: $size;
+	padding-bottom	: $size;
+	height :0;
+}
+
+
+
+
+//notes
+//
+//li.a{
+//	$url : "<?php echo get_field('slide_1')['url']?>";
+//		background-image: url(#{$url});
+//		
+//	}
+//	
+//yields
+//li.a {
+//  background-image: url(<?php echo get_field('slide_1')['url']?>);
+//}
+

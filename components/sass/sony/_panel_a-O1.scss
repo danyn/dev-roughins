@@ -1,0 +1,72 @@
+.media-set-60-40.set-a{
+	
+	
+	@include container();
+	.frame-60{
+
+	width:60%;
+	float:left;
+		
+		
+		
+//		@include height(span(7));
+//		@include height(60%);
+		
+			#media-item-1{
+				@include span(full (gutters:.25));
+				@include height(span(8),gutter());
+				
+				margin-bottom:gutter() *2 ;
+			}//#media-item-1
+			#media-item-2{
+				@include height(span(4));
+				@include span(8 (gutters:.25));
+				
+			
+
+			}//#media-item-2
+				#media-item-3{
+				@include height(span(4));
+				@include span(4 (gutters:.25));
+				
+	
+
+
+			}//#media-item-3
+	}//.frame-60
+	
+	.frame-40{
+		
+		
+		width:40%;
+		float:left;
+		
+
+//		@include height(60%); 
+		
+		
+		
+
+			#media-item-4, #media-item-5{
+				@include height(span(6));
+				@include span(6 (gutters:.375));
+				
+				
+
+			}//#media-item-4
+			#media-item-5{
+//				@include height(span(6));
+//				@include span(6);
+
+			}//#media-item-5 
+			#media-item-6{
+				@include span(full (gutters:.375));
+				margin-top:gutter()*2.5;
+				@include height(span(full),gutter()*2.22 );
+				clear:both;  
+     
+			}//#media-item-6
+
+}//.frame-40    
+	 
+}//.media-set   

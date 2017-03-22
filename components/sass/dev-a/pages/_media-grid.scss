@@ -1,0 +1,168 @@
+
+
+#elem1{
+	
+	background-color: red;  
+}
+#elem2{
+	
+	background-color: green;  
+}
+
+
+//extends
+
+.center_absolute{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.social-headline{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+
+	
+}
+
+//mixins
+
+@mixin back_img($path){
+	background-image:url($path);
+	background-size:cover;
+}
+//uses sussy grid spans to relate height to parent
+@mixin aspect_height_span($pad){
+	height:0;
+	padding-bottom:span($pad);
+	
+}
+//provide a percent to relate height to the width of parent elem
+@mixin aspect_height($pad){
+	height:0;
+	padding-bottom:$pad;
+	
+}
+//width is given explicitly to calculate height 
+@mixin aspect_height_explicit($span,$aspect){
+	width:span($span);
+	height:0;
+	padding-bottom:span($span)*$aspect; 
+	
+}
+
+@mixin square_img($context,$path,$rad:3px) {
+	
+		@include span($context);
+		@include back_img($path);
+		@include aspect_height_span($context);
+		border-radius: $rad;
+		position:relative;
+ 
+}
+ 
+@mixin social_box($color:white,$background_color:#00aced){
+//	@include span(10 of 12);
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+	border-top-right-radius:12px;
+	border-bottom-right-radius:3px;
+	
+	padding-top:span(0.777);
+	padding-bottom: span(0.777);
+	background-color:$background_color;
+	color:$color;
+	position: relative;
+}
+
+
+
+@mixin center_icon($path, $size:5){
+	@extend .center_absolute;
+	@include back_img($path);
+	display: block !important;
+	width: span($size);
+	height	: span($size);
+}
+
+//last element in gutter after right
+@mixin l_gutter_after {
+	  float: right !important;
+    margin-right: 0 !important;
+}
+
+ 
+
+
+body.media-layout.gutter-after{
+	
+	.l_{ @include l_gutter_after;}
+	span.play{
+		@include center_icon('../../img/play_button.png');
+	}
+	
+	
+	.half{ 
+		@include container($full);
+		margin-bottom: gutter();
+		div{
+			//always produces a square here it's 6/12 of half screen
+			@include square_img(6, '../../img/parrot.jpg');
+		}
+
+	
+	}//.half
+
+	.third{
+		@include container($full);
+		div{
+			@include square_img(4, '../../img/parrot.jpg' );
+		}
+//		.l_{@include last; }
+	}//.third
+	
+	.social_media{
+		margin-bottom:gutter();
+		@include container($full);
+			
+		div{
+			@include social_box();
+			p{ 
+				@extend .social-headline;
+				text-align: center;
+				font-size: 32px;
+				&:before{
+					content:"";
+					position:absolute;
+					@include back_img('../../img/double-quote.png');
+					@include aspect_height_explicit(1,.6644);
+					top:7px;
+					left:15px;
+					
+				}//psudeo before double quote
+			}
+
+				i{
+			
+		@include back_img('../../img/twitter.png');
+			display:block;
+			width:span(1);
+			@include aspect_height_span(1);
+			position:absolute;
+			top:0px;
+			right:0px;			
+		}//i twitter
+			
+			
+		}//.social_media div
+	
+	}//.social_media
+	
+	
+}//body

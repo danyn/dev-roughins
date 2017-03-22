@@ -1,0 +1,81 @@
+
+@media screen and (min-width:450px){
+.media-set-60-40.set-a{
+	
+	@include with-layout(30 .50){
+
+		.media-tile.birch-twitter{
+		@include height(span(15));
+	}
+	
+
+	.frame-60{
+			
+			
+			#media-item-1{
+//				background-position-y:-20px; 
+				@include height(span(18));
+				margin-bottom:gutter()*2;
+				@include span(full);
+				@include susy-clearfix;
+				img{
+			
+				}
+			}//#media-item-1
+			#media-item-2{
+			
+				@include span(15);
+				@include height(span(15), gutter()*2);
+				margin-bottom:gutter()*2; 
+		
+					img{
+			
+				}
+			
+
+			}//#media-item-2
+				#media-item-3{
+			
+					@include span(15);
+					@include height(span(15), gutter()*2);
+					margin-bottom:gutter()*2;
+						img{
+				
+				}
+
+			}//#media-item-3
+		margin-bottom:gutter()*2;
+	}//.frame-60
+	
+	.frame-40{
+	
+			#media-item-4{
+			
+				@include span(15);
+				@include height(span(15), gutter()*2);
+				
+			}//#media-item-4
+			#media-item-5{
+					
+				@include span(15);
+				@include height(span(15),gutter()*2);
+				img{
+					 
+				}
+
+			}//#media-item-5 
+			#media-item-6{
+				margin-top:gutter()*2;
+				@include span(full);
+				@include height(span(30),gutter()*3);
+				clear:both;
+				img{
+			 
+				}
+				}//#media-item-6
+		
+}//.frame-40  
+}//.media-set  
+}//with layout
+}//media query
+ 

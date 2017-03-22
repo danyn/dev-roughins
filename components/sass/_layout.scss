@@ -1,0 +1,53 @@
+//@include border-box-sizing; //uses border box sizing like the old IE
+
+.container{
+	@include container($full);
+	max-width:1600px;
+	margin-bottom:gutter();
+}
+.container-static-1{
+//	@include container($box1);
+	width:$box1;
+}
+
+
+
+@media(min-width:720px){
+#elem1{
+	
+	@include span(3 wide);
+	margin-right: 0;
+}
+#elem2{
+	@include span(2);
+}
+#elem3{
+	@include span(4);
+}
+#elem4{
+	@include span(3);
+	margin-right: 0;
+}
+
+}
+
+
+@include with-layout(3 1/4 inside){
+
+	.inner{
+
+
+		@include container();
+		margin-left:$inset;
+		margin-right:$inset;
+		margin-top:$inset;
+
+	}
+}
+div#statement{
+	margin-left:span(8);
+	border:1px solid green;
+	font-size:32px;
+	color:white;
+	display:inline-block;
+}

@@ -1,0 +1,78 @@
+
+.image_responsive{
+//	display:none;
+	width:100%;
+	height:auto;
+	
+}
+.bordered{
+	border-radius: 4px;
+}
+
+
+.media-set-60-40.set-a{
+	
+	
+
+	.frame-60{
+	
+		
+			#media-item-1{
+				overflow: hidden;
+				@include back_img('../img/fox-in-tall-grass.jpg');
+				span.play{
+					@include center_icon('../img/play_button.png');
+				}//span.play
+				img{
+					@extend .bordered;
+					@extend .image_responsive;
+				}
+				
+			}//#media-item-1
+			#media-item-2{
+				overflow:hidden;
+					img{
+					@extend .bordered;
+					@extend .image_responsive;
+				}
+			
+
+			}//#media-item-2
+				#media-item-3{
+						img{
+					@extend .bordered;
+					@extend .image_responsive;
+				}
+
+			}//#media-item-3
+		
+	}//.frame-60
+	
+	.frame-40{
+	
+		
+
+//		@include height(60%); 
+		
+			#media-item-4{
+			 	background-image: url('../img/parrot.jpg');
+				background-size:cover;
+				
+			}//#media-item-4
+			#media-item-5{
+				img{
+					@extend .bordered;
+					@extend .image_responsive;
+				}
+
+			}//#media-item-5 
+			#media-item-6{
+				img{
+					@extend .bordered;
+					@extend .image_responsive;
+				}
+				}//#media-item-6
+		
+}//.frame-40  
+}//.media-set  
+ 

@@ -1,0 +1,53 @@
+
+*{box-sizing:border-box;}
+//susy's sass map data
+
+$gutter_global : .10;
+
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: split,
+  container: auto ,
+  container-position: center,
+  columns: 30,
+  gutters: $gutter_global,
+  column-width: false,
+  global-box-sizing: border-box,
+  last-flow: to,
+   debug: (
+    image: show,
+    color: rgba(#686890,.6),
+    output: overlay,
+    toggle: top right,
+  ), 
+  use-custom: (
+    background-image: true,
+    background-options: false,
+    box-sizing: true,
+    clearfix: false,
+    rem: true,
+  )
+);
+
+
+//containers
+//fluid
+$full:90%;
+
+//static
+$box1:600px;
+//breakpoints
+
+
+//margins
+$inset:22px;
+//heights
+$elem_height:300px;
+
+$narrow: 400px;
+$small:  650px;
+$small_i:$small - 1;
+$medium: 960px;
+$wide:  1200px; 

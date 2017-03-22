@@ -1,0 +1,69 @@
+
+
+
+
+.media-set-60-40.set-a{
+	
+	
+
+	.frame-60{
+	@include container();
+	width:60%;
+	float:left;
+	$gutter_60: $gutter_global / .601;	
+		@include with-layout(12 $gutter_60){
+		
+//		@include height(span(7));
+//		@include height(60%);
+		
+			#media-item-1{
+				@include span(full);
+				@include height(span(8));
+				margin-bottom:gutter() *2 ;
+			}//#media-item-1
+			#media-item-2{
+				@include height(span(4));
+				@include span(8);
+				
+			
+
+			}//#media-item-2
+				#media-item-3{
+				@include height(span(4));
+				@include span(4);
+				
+
+			}//#media-item-3
+		}//with-layout
+	}//.frame-60
+	
+	.frame-40{
+		@include container;
+		$gutter_40: $gutter_global / 0.399;	
+		@include with-layout(12 $gutter_40){
+		width:40%;
+		float:left;
+		
+
+//		@include height(60%); 
+		
+			#media-item-4, #media-item-5{
+				@include height(span(6));
+				@include span(6);
+				
+			}//#media-item-4
+			#media-item-5{
+//				@include height(span(6));
+//				@include span(6);
+
+			}//#media-item-5 
+			#media-item-6{
+				$a_gutter : ($gutter_40 * span(1));
+				@include span(full);
+				margin-top:gutter()*2;
+				@include height(span(full));
+				clear:both;  
+			}//#media-item-6
+		}//with-layout
+}//.frame-40  
+}//.media-set   

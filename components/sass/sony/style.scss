@@ -1,0 +1,39 @@
+// style.scss
+// ==============
+ 
+//Compass imports
+@import "compass";
+@import "compass/reset"; 
+//@import "compass/css3/box-shadow";
+//@import "compass/css3/text-shadow";
+//@import 'compass/css3/filter';
+//@import "compass/css3/flexbox";
+//@import "compass/css3/transition";
+
+//External Libraries
+@import "susy";
+@import "breakpoint";
+
+//project settings
+@import "var_layout";
+
+//birch utilities
+@import "util_layout";
+
+//pages
+//panel_a
+@import "panel_a_layout_min";
+@import "panel_a_layout_min_450px";
+@import "panel_a_layout_min_643px";
+@import "panel_a_layout_min_width_1000px";
+@import "panel_a_content";
+
+
+
+
+/*dev-a style.scss*/
+
+
+
+
+
