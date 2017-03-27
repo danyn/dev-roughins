@@ -18,7 +18,7 @@
 		}
 		
 		.media-tile {
-			background-color: white;
+/*			background-color: white;*/
 			border-radius: 4px;
 		}
 		
@@ -34,6 +34,7 @@
 		}
 		.media-tile{
 			position:relative;
+			background-color: rgba(0, 0, 0, 0.29);
 		}
 		
 /*		responsive video css*/
@@ -59,14 +60,17 @@
 		span.stop{
 			width:32px;
 			height:32px;
-			border:2px solid white;
+/*			border:2px solid white;*/
 			position:absolute;
 			top:0;
 			right:0;
 			font-size:32px;
+/*
 			color:white;
 			background-color:rgba(0, 0, 0, 0.78);
+*/
 			z-index:2;
+			background-image: url(img/close.png);
 		}
 		.hidden{
 			display:none;
@@ -97,24 +101,25 @@
 				
 			</div>
 				<span class="play"></span>
-				<span class="stop hidden">X</span>
+				<span class="stop hidden"></span>
 
 			</div><!-- #media-item-1 -->
 			<div id="media-item-2" class="media-tile birch-youtube purple" data-tile-type="youtube">
 <!--			 <img src="img/eastern-brown-owl.jpg" alt="links to a video of the eastern brown owl" title="click to watch video of eastern brown owl">-->
 				<div class="overlay"></div>
-					<div class="videoWrapper vw-small">
-    			<!-- Copy & Pasted from YouTube -->
-<!--    			<iframe width="408" height="201"  src="https://www.youtube.com/embed/9jCf62bRi6Y" frameborder="0" allowfullscreen></iframe>-->
-				    	<iframe width="640" height="360"
-    		
-    	 src="https://www.youtube.com/embed/9jCf62bRi6Y?rel=0" 
-    	 	
-    	 frameborder="0" allowfullscreen>
-    	 	
-    	 </iframe>
 				
+				<div class="birch-video">
+				
+							<div class="videoWrapper vw-small">
+									<iframe width="640" height="360"
+					 								src="https://www.youtube.com/embed/9jCf62bRi6Y?rel=0" 
+					 								frameborder="0" allowfullscreen>
+								 </iframe>
+								 
+
+						</div>
 				</div>
+				
 			</div><!--		#media-item-2-->
 			<div id="media-item-3" class="media-tile birch-link green" data-tile-type="instagram">
 			 <img src="img/face-of-snapping-turtle.jpg" alt="watch our video of a snapping turtle" title="click to watch a video of a snapping turtle">
@@ -123,7 +128,12 @@
 		</div><!--		.frame-60-->
 		<div class="frame-40">
 			<div id="media-item-4" class="media-tile birch-twitter green" data-tile-type="twitter">
-				<div class="overlay"></div>
+				<p class="birch-tweet">
+					Birch releases new line of dog houses.
+				</p>
+				<p class="birch-tweeted">
+					6 hours ago
+				</p>
 			</div><!--		media-item-4-->
 			<div id="media-item-5" class="media-tile birch-link-share green" data-tile-type="link"> 
 			<img src="img/monkey-on-tall-rock.jpg" alt="tree monkey on tall rock in asia" title="click watch a video of a tree monkey who live in asia">

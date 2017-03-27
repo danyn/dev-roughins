@@ -2,8 +2,9 @@
 @media screen and (min-width:450px){
 .media-set-60-40.set-a{
 	
-	@include with-layout(30 .50){
-
+	@include with-layout(30 .70){
+//		@include container();
+	padding:gutter();
 		.media-tile.birch-twitter{
 		@include height(span(15));
 	}
@@ -75,7 +76,7 @@
 				}//#media-item-6
 		
 }//.frame-40  
-}//.media-set  
-}//with layout
+}//with-layout  
+}//.media-set
 }//media query
  

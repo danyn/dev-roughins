@@ -43,6 +43,7 @@
 			#media-item-4{
 				@include span(10);
 				@include height(span(10));
+				margin-bottom:gutter() * 2 ;
 	
 				
 			}//#media-item-4
@@ -61,7 +62,7 @@
 				@include height(span(20));
 				float: right;
    			clear: none;
-				margin-top:-1 * span(10);
+				margin-top:(-1 * span(10)) - (gutter()*2);
 				img{
 			
 				}

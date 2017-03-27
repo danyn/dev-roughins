@@ -1,3 +1,5 @@
+//global rules
+$twitter_blue:#1bb3df;
 
 .image_responsive{
 //	display:none;
@@ -9,7 +11,46 @@
 	border-radius: 4px;
 }
 
+.media-tile.birch-twitter{
+	background-color:$twitter_blue;
+	background-image:url(../img/twitter-white.png);
+	background-repeat:no-repeat;
+	background-position-x:center;
+	background-position-y:8%;
+	
 
+	
+}
+
+.birch-tweet{
+	position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+	color:white;
+	text-align: center;
+	width:100%;
+
+}
+
+.birch-tweeted{
+	position: absolute;
+	bottom:8%;
+	text-align: center;
+	color:white;
+	width:100%;
+
+}
+
+.birch-video{
+	position: absolute;
+	width:100%;
+	 top: 50%;
+  transform: translateY(-50%);
+	
+	
+}
+
+//page rules
 .media-set-60-40.set-a{
 	
 	
@@ -55,10 +96,11 @@
 //		@include height(60%); 
 		
 			#media-item-4{
-			 	background-image: url('../img/parrot.jpg');
-				background-size:cover;
+//			 	background-image: url('../img/parrot.jpg');
+//				background-size:cover;
 				
-			}//#media-item-4
+			}//#media-item-4 
+		
 			#media-item-5{
 				img{
 					@extend .bordered;

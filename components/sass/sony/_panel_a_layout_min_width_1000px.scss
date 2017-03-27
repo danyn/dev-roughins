@@ -7,50 +7,53 @@
 			@include container();
 
 		.frame-60{
+			margin-bottom:0;
 
-
-		$gutter_60: $gutter_global / .6;
+		$gutter_60: $gutter_global/0.6;
 	//	$gutter_60 : .8;
 
 
-			@include span(18);
-			@include with-layout(18 $gutter_60){
+			@include span(18 nest);
+			@include with-layout(30 $gutter_60){
 
 				#media-item-1{
-					@include span(18);
-					@include height(span(12), gutter()*2);
-					margin-bottom:gutter() *2 ;
+					@include span(full);
+					@include height(65.4%);
+					margin-bottom:(gutter() * 2);
 				}//#media-item-1
 				#media-item-2{
-					@include height(span(6));
-					@include span(12);
+					@include height(span(10));
+					@include span(20);
+					margin-bottom:0px;
 
 				}//#media-item-2
 					#media-item-3{
-					@include height(span(6));
-					@include span(6);
+					@include height(span(10));
+					@include span(10);
+					margin-bottom:0px;
 				}//#media-item-3
 
-		}// 60 layout 
+		}// with-layout 
 	}//.frame-60 
 
 		.frame-40{
 	//		@include container;
-			$gutter_40: $gutter_global / 0.4;	
-			@include span(12);
-			@include with-layout(12 $gutter_40){
+			$gutter_40: $gutter_global/0.4;	
+			@include span(12 nest);
+			@include with-layout(30 $gutter_40){
 	//		@include nested(12){
 				#media-item-4, #media-item-5{
-					@include height(span(6));
-					@include span(6);	
+					@include height(span(15));
+					@include span(15);
+					margin-bottom: 0;
 				}//#media-item-4
 				#media-item-5{
 					clear:none;
 				}//#media-item-5 
 				#media-item-6{
-					@include span(12);
-					@include height(span(12));
-					margin-top:gutter()*2;
+					@include span(full);
+					@include height(span(full));
+					margin-top:gutter() * 2;
 
 					clear:both;  
 				}//#media-item-6

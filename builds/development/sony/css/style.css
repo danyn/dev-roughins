@@ -111,24 +111,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 @media screen and (min-width: 450px) {
-  /* line 7, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
+  /* line 3, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
+  .media-set-60-40.set-a {
+    padding: 0.68627%;
+  }
+  /* line 8, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
   .media-set-60-40.set-a .media-tile.birch-twitter {
     height: 0;
-    padding-bottom: 48.88889%;
+    padding-bottom: 48.62745%;
   }
-  /* line 12, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
+  /* line 13, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
   .media-set-60-40.set-a .frame-60 {
-    margin-bottom: 1.11111%;
+    margin-bottom: 1.37255%;
   }
-  /* line 15, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
+  /* line 16, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
   .media-set-60-40.set-a .frame-60 #media-item-1 {
     height: 0;
-    padding-bottom: 58.88889%;
-    margin-bottom: 1.11111%;
-    width: 98.88889%;
+    padding-bottom: 58.62745%;
+    margin-bottom: 1.37255%;
+    width: 98.62745%;
     float: left;
-    margin-left: 0.55556%;
-    margin-right: 0.55556%;
+    margin-left: 0.68627%;
+    margin-right: 0.68627%;
   }
   /* line 12, ../../../../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
   .media-set-60-40.set-a .frame-60 #media-item-1:after {
@@ -136,53 +140,53 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: block;
     clear: both;
   }
-  /* line 25, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
+  /* line 26, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
   .media-set-60-40.set-a .frame-60 #media-item-2 {
-    width: 48.88889%;
+    width: 48.62745%;
     float: left;
-    margin-left: 0.55556%;
-    margin-right: 0.55556%;
+    margin-left: 0.68627%;
+    margin-right: 0.68627%;
     height: 0;
-    padding-bottom: 47.77778%;
-    margin-bottom: 1.11111%;
+    padding-bottom: 47.2549%;
+    margin-bottom: 1.37255%;
   }
-  /* line 37, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
+  /* line 38, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
   .media-set-60-40.set-a .frame-60 #media-item-3 {
-    width: 48.88889%;
+    width: 48.62745%;
     float: left;
-    margin-left: 0.55556%;
-    margin-right: 0.55556%;
+    margin-left: 0.68627%;
+    margin-right: 0.68627%;
     height: 0;
-    padding-bottom: 47.77778%;
-    margin-bottom: 1.11111%;
+    padding-bottom: 47.2549%;
+    margin-bottom: 1.37255%;
   }
-  /* line 52, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
+  /* line 53, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
   .media-set-60-40.set-a .frame-40 #media-item-4 {
-    width: 48.88889%;
+    width: 48.62745%;
     float: left;
-    margin-left: 0.55556%;
-    margin-right: 0.55556%;
+    margin-left: 0.68627%;
+    margin-right: 0.68627%;
     height: 0;
-    padding-bottom: 47.77778%;
+    padding-bottom: 47.2549%;
   }
-  /* line 58, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
+  /* line 59, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
   .media-set-60-40.set-a .frame-40 #media-item-5 {
-    width: 48.88889%;
+    width: 48.62745%;
     float: left;
-    margin-left: 0.55556%;
-    margin-right: 0.55556%;
+    margin-left: 0.68627%;
+    margin-right: 0.68627%;
     height: 0;
-    padding-bottom: 47.77778%;
+    padding-bottom: 47.2549%;
   }
-  /* line 67, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
+  /* line 68, ../../../../components/sass/sony/_panel_a_layout_min_450px.scss */
   .media-set-60-40.set-a .frame-40 #media-item-6 {
-    margin-top: 1.11111%;
-    width: 98.88889%;
+    margin-top: 1.37255%;
+    width: 98.62745%;
     float: left;
-    margin-left: 0.55556%;
-    margin-right: 0.55556%;
+    margin-left: 0.68627%;
+    margin-right: 0.68627%;
     height: 0;
-    padding-bottom: 97.22222%;
+    padding-bottom: 96.56863%;
     clear: both;
   }
 }
@@ -190,51 +194,52 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 16, ../../../../components/sass/sony/_panel_a_layout_min_643px.scss */
   .media-set-60-40.set-a .frame-60 #media-item-2 {
     height: 0;
-    padding-bottom: 33.0303%;
-    width: 66.36364%;
+    padding-bottom: 32.22222%;
+    width: 65.55556%;
     float: left;
-    margin-left: 0.15152%;
-    margin-right: 0.15152%;
+    margin-left: 0.55556%;
+    margin-right: 0.55556%;
   }
   /* line 26, ../../../../components/sass/sony/_panel_a_layout_min_643px.scss */
   .media-set-60-40.set-a .frame-60 #media-item-3 {
     height: 0;
-    padding-bottom: 33.0303%;
-    width: 33.0303%;
+    padding-bottom: 32.22222%;
+    width: 32.22222%;
     float: left;
-    margin-left: 0.15152%;
-    margin-right: 0.15152%;
+    margin-left: 0.55556%;
+    margin-right: 0.55556%;
   }
   /* line 43, ../../../../components/sass/sony/_panel_a_layout_min_643px.scss */
   .media-set-60-40.set-a .frame-40 #media-item-4 {
-    width: 33.0303%;
+    width: 32.22222%;
     float: left;
-    margin-left: 0.15152%;
-    margin-right: 0.15152%;
+    margin-left: 0.55556%;
+    margin-right: 0.55556%;
     height: 0;
-    padding-bottom: 33.0303%;
+    padding-bottom: 32.22222%;
+    margin-bottom: 1.11111%;
   }
-  /* line 49, ../../../../components/sass/sony/_panel_a_layout_min_643px.scss */
+  /* line 50, ../../../../components/sass/sony/_panel_a_layout_min_643px.scss */
   .media-set-60-40.set-a .frame-40 #media-item-5 {
-    width: 33.0303%;
+    width: 32.22222%;
     float: left;
-    margin-left: 0.15152%;
-    margin-right: 0.15152%;
+    margin-left: 0.55556%;
+    margin-right: 0.55556%;
     height: 0;
-    padding-bottom: 33.0303%;
+    padding-bottom: 32.22222%;
     clear: left;
   }
-  /* line 58, ../../../../components/sass/sony/_panel_a_layout_min_643px.scss */
+  /* line 59, ../../../../components/sass/sony/_panel_a_layout_min_643px.scss */
   .media-set-60-40.set-a .frame-40 #media-item-6 {
-    width: 66.36364%;
+    width: 65.55556%;
     float: left;
-    margin-left: 0.15152%;
-    margin-right: 0.15152%;
+    margin-left: 0.55556%;
+    margin-right: 0.55556%;
     height: 0;
-    padding-bottom: 66.36364%;
+    padding-bottom: 65.55556%;
     float: right;
     clear: none;
-    margin-top: -33.0303%;
+    margin-top: -33.33333%;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -287,12 +292,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     right: 0;
     content: " ";
     z-index: 998;
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSI0LjU0NTQ1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjQuNTQ1NDUlIiBzdG9wLWNvbG9yPSIjNjg2ODkwIiBzdG9wLW9wYWNpdHk9IjAuNiIvPjxzdG9wIG9mZnNldD0iOTUuNDU0NTUlIiBzdG9wLWNvbG9yPSIjOTM5M2IxIiBzdG9wLW9wYWNpdHk9IjAuNiIvPjxzdG9wIG9mZnNldD0iOTUuNDU0NTUlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIxNi42NjY2NyUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSIxNi42NjY2NyUiIHN0b3AtY29sb3I9IiM2ODY4OTAiIHN0b3Atb3BhY2l0eT0iMC42Ii8+PHN0b3Agb2Zmc2V0PSI4My4zMzMzMyUiIHN0b3AtY29sb3I9IiM5MzkzYjEiIHN0b3Atb3BhY2l0eT0iMC42Ii8+PHN0b3Agb2Zmc2V0PSI4My4zMzMzMyUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
     background-size: 100%;
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(4.54545%, rgba(0, 0, 0, 0)), color-stop(4.54545%, rgba(104, 104, 144, 0.6)), color-stop(95.45455%, rgba(147, 147, 177, 0.6)), color-stop(95.45455%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 50% 0%, 50% 1, color-stop(100%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
-    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 4.54545%, rgba(104, 104, 144, 0.6) 4.54545%, rgba(147, 147, 177, 0.6) 95.45455%, rgba(0, 0, 0, 0) 95.45455%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 4.54545%, rgba(104, 104, 144, 0.6) 4.54545%, rgba(147, 147, 177, 0.6) 95.45455%, rgba(0, 0, 0, 0) 95.45455%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 4.54545%, rgba(104, 104, 144, 0.6) 4.54545%, rgba(147, 147, 177, 0.6) 95.45455%, rgba(0, 0, 0, 0) 95.45455%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(16.66667%, rgba(0, 0, 0, 0)), color-stop(16.66667%, rgba(104, 104, 144, 0.6)), color-stop(83.33333%, rgba(147, 147, 177, 0.6)), color-stop(83.33333%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 50% 0%, 50% 1, color-stop(100%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 16.66667%, rgba(104, 104, 144, 0.6) 16.66667%, rgba(147, 147, 177, 0.6) 83.33333%, rgba(0, 0, 0, 0) 83.33333%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 16.66667%, rgba(104, 104, 144, 0.6) 16.66667%, rgba(147, 147, 177, 0.6) 83.33333%, rgba(0, 0, 0, 0) 83.33333%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 16.66667%, rgba(104, 104, 144, 0.6) 16.66667%, rgba(147, 147, 177, 0.6) 83.33333%, rgba(0, 0, 0, 0) 83.33333%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
     background-size: 3.33333%, 100% 24px;
     background-origin: content-box, border-box;
     background-clip: content-box, border-box;
@@ -300,107 +305,138 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
   /* line 9, ../../../../components/sass/sony/_panel_a_layout_min_width_1000px.scss */
   .media-set-60-40.set-a .frame-60 {
-    width: 59.69697%;
+    margin-bottom: 0;
+    width: 60%;
     float: left;
-    margin-left: 0.15152%;
-    margin-right: 0.15152%;
   }
   /* line 19, ../../../../components/sass/sony/_panel_a_layout_min_width_1000px.scss */
   .media-set-60-40.set-a .frame-60 #media-item-1 {
-    width: 99.20635%;
+    width: 98.48485%;
     float: left;
-    margin-left: 0.39683%;
-    margin-right: 0.39683%;
+    margin-left: 0.75758%;
+    margin-right: 0.75758%;
     height: 0;
-    padding-bottom: 65.07937%;
-    margin-bottom: 0.79365%;
+    padding-bottom: 65.4%;
+    margin-bottom: 1.51515%;
   }
   /* line 24, ../../../../components/sass/sony/_panel_a_layout_min_width_1000px.scss */
   .media-set-60-40.set-a .frame-60 #media-item-2 {
     height: 0;
-    padding-bottom: 32.53968%;
-    width: 65.87302%;
+    padding-bottom: 31.81818%;
+    width: 65.15152%;
     float: left;
-    margin-left: 0.39683%;
-    margin-right: 0.39683%;
+    margin-left: 0.75758%;
+    margin-right: 0.75758%;
+    margin-bottom: 0px;
   }
-  /* line 29, ../../../../components/sass/sony/_panel_a_layout_min_width_1000px.scss */
+  /* line 30, ../../../../components/sass/sony/_panel_a_layout_min_width_1000px.scss */
   .media-set-60-40.set-a .frame-60 #media-item-3 {
     height: 0;
-    padding-bottom: 32.53968%;
-    width: 32.53968%;
+    padding-bottom: 31.81818%;
+    width: 31.81818%;
     float: left;
-    margin-left: 0.39683%;
-    margin-right: 0.39683%;
+    margin-left: 0.75758%;
+    margin-right: 0.75758%;
+    margin-bottom: 0px;
   }
-  /* line 37, ../../../../components/sass/sony/_panel_a_layout_min_width_1000px.scss */
+  /* line 39, ../../../../components/sass/sony/_panel_a_layout_min_width_1000px.scss */
   .media-set-60-40.set-a .frame-40 {
-    width: 39.69697%;
+    width: 40%;
     float: left;
-    margin-left: 0.15152%;
-    margin-right: 0.15152%;
   }
-  /* line 43, ../../../../components/sass/sony/_panel_a_layout_min_width_1000px.scss */
+  /* line 45, ../../../../components/sass/sony/_panel_a_layout_min_width_1000px.scss */
   .media-set-60-40.set-a .frame-40 #media-item-4, .media-set-60-40.set-a .frame-40 #media-item-5 {
     height: 0;
-    padding-bottom: 48.33333%;
-    width: 48.33333%;
+    padding-bottom: 48.14815%;
+    width: 48.14815%;
     float: left;
-    margin-left: 0.83333%;
-    margin-right: 0.83333%;
+    margin-left: 0.92593%;
+    margin-right: 0.92593%;
+    margin-bottom: 0;
   }
-  /* line 47, ../../../../components/sass/sony/_panel_a_layout_min_width_1000px.scss */
+  /* line 50, ../../../../components/sass/sony/_panel_a_layout_min_width_1000px.scss */
   .media-set-60-40.set-a .frame-40 #media-item-5 {
     clear: none;
   }
-  /* line 50, ../../../../components/sass/sony/_panel_a_layout_min_width_1000px.scss */
+  /* line 53, ../../../../components/sass/sony/_panel_a_layout_min_width_1000px.scss */
   .media-set-60-40.set-a .frame-40 #media-item-6 {
-    width: 98.33333%;
+    width: 98.14815%;
     float: left;
-    margin-left: 0.83333%;
-    margin-right: 0.83333%;
+    margin-left: 0.92593%;
+    margin-right: 0.92593%;
     height: 0;
-    padding-bottom: 98.33333%;
-    margin-top: 1.66667%;
+    padding-bottom: 98.14815%;
+    margin-top: 1.85185%;
     clear: both;
   }
 }
-/* line 2, ../../../../components/sass/sony/_panel_a_content.scss */
+/* line 4, ../../../../components/sass/sony/_panel_a_content.scss */
 .image_responsive, .media-set-60-40.set-a .frame-60 #media-item-1 img, .media-set-60-40.set-a .frame-60 #media-item-2 img, .media-set-60-40.set-a .frame-60 #media-item-3 img, .media-set-60-40.set-a .frame-40 #media-item-5 img, .media-set-60-40.set-a .frame-40 #media-item-6 img {
   width: 100%;
   height: auto;
 }
 
-/* line 8, ../../../../components/sass/sony/_panel_a_content.scss */
+/* line 10, ../../../../components/sass/sony/_panel_a_content.scss */
 .bordered, .media-set-60-40.set-a .frame-60 #media-item-1 img, .media-set-60-40.set-a .frame-60 #media-item-2 img, .media-set-60-40.set-a .frame-60 #media-item-3 img, .media-set-60-40.set-a .frame-40 #media-item-5 img, .media-set-60-40.set-a .frame-40 #media-item-6 img {
   border-radius: 4px;
 }
 
-/* line 20, ../../../../components/sass/sony/_panel_a_content.scss */
+/* line 14, ../../../../components/sass/sony/_panel_a_content.scss */
+.media-tile.birch-twitter {
+  background-color: #1bb3df;
+  background-image: url(../img/twitter-white.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 8%;
+}
+
+/* line 25, ../../../../components/sass/sony/_panel_a_content.scss */
+.birch-tweet {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 35, ../../../../components/sass/sony/_panel_a_content.scss */
+.birch-tweeted {
+  position: absolute;
+  bottom: 8%;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+/* line 44, ../../../../components/sass/sony/_panel_a_content.scss */
+.birch-video {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 61, ../../../../components/sass/sony/_panel_a_content.scss */
 .media-set-60-40.set-a .frame-60 #media-item-1 {
   overflow: hidden;
   background-image: url("../img/fox-in-tall-grass.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* line 23, ../../../../components/sass/sony/_panel_a_content.scss */
+/* line 64, ../../../../components/sass/sony/_panel_a_content.scss */
 .media-set-60-40.set-a .frame-60 #media-item-1 span.play {
   background-image: url("../img/play_button.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: block !important;
-  width: 33.0303%;
-  padding-bottom: 33.0303%;
+  width: 32.22222%;
+  padding-bottom: 32.22222%;
   height: 0;
 }
-/* line 32, ../../../../components/sass/sony/_panel_a_content.scss */
+/* line 73, ../../../../components/sass/sony/_panel_a_content.scss */
 .media-set-60-40.set-a .frame-60 #media-item-2 {
   overflow: hidden;
-}
-/* line 57, ../../../../components/sass/sony/_panel_a_content.scss */
-.media-set-60-40.set-a .frame-40 #media-item-4 {
-  background-image: url("../img/parrot.jpg");
-  background-size: cover;
 }
 
 /*dev-a style.scss*/
